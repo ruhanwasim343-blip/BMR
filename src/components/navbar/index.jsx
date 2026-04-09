@@ -14,7 +14,7 @@ export default function Navbar() {
 
                     {/* Logo */}
                     <Link to="/">
-                        <img src="/public/BMR..svg" alt="Logo" className="cursor-pointer" />
+                        <img src="/BMR..svg" alt="Logo" className="cursor-pointer" />
                     </Link>
 
                     {/* Hamburger (Mobile Only) */}
