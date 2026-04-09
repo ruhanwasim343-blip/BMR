@@ -3,7 +3,8 @@ import React from 'react'
 export default function Framework2() {
     return (
         <>
-            <div className='bg-[#0F1C33] max-w-7xl px-6 py-6 mx-auto'>
+            <div className='bg-[#0F1C33]'>
+                <div className=' max-w-7xl px-6 py-6 mx-auto'>
                 <h1 className='text-lg font-bold text-center text-white'>Core Methodologies</h1>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6'>
                     <div className="relative bg-[#15243D] rounded-xl p-6 space-y-4 
@@ -91,6 +92,7 @@ export default function Framework2() {
                     </div>
                 </div>
 
+            </div>
             </div>
         </>
     )

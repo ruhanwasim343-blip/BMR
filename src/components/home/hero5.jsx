@@ -3,7 +3,8 @@ import React from 'react'
 export default function Hero5() {
     return (
         <>
-            <div className="bg-gradient-to-b from-[#00A5A8] to-[#0B313E] max-w-7xl px-6 py-12 mx-auto text-center text-white">
+           <div className='bg-gradient-to-b from-[#00A5A8] to-[#0B313E]'>
+             <div className="max-w-7xl px-6 py-12 mx-auto text-center text-white">
                 <div>
                     <h1 className='text-base text-white font-semibold'>OUR IMPACT</h1>
                     <p className='text-[8px] text-white/70'>Delivering measurable results across industries</p>
@@ -31,6 +32,7 @@ export default function Hero5() {
                     </div>
                 </div>
             </div>
+           </div>
         </>
     )
 }

@@ -3,7 +3,8 @@ import React from 'react'
 export default function Footer() {
     return (
         <>
-            <div className='grid md:grid-cols-12 gird-cols-1 bg-[#15243D] border-none max-w-7xl mx-auto px-7 py-10 gap-10'>
+          <div className='bg-[#15243D]'>
+              <div className='grid md:grid-cols-12 gird-cols-1  border-none max-w-7xl mx-auto px-7 py-10 gap-10'>
                 <div className="col-span-6">
                     <div>
                         <img src="/public/BMR..svg" alt="" />
@@ -36,10 +37,11 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="bg-[#15243D]  pb-20 hidden md:block">
+            <div className="pb-20 hidden md:block">
                 <hr className="w-auto border-t border-white/70 mx-7" />
             </div>
 
+          </div>
         </>
     )
 }

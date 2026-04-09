@@ -5,9 +5,9 @@ import Dropdown from "../Dropdown"
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className="bg-[#15243D] border-b border-white/20">
 
-            <div className="grid grid-cols-12 items-center bg-[#15243D] shadow-md px-7 py-5 max-w-7xl mx-auto border-b border-white/20">
+            <div className="grid grid-cols-12 items-center  shadow-md px-7 py-5 max-w-7xl mx-auto border-b border-white/20">
 
                 {/* Left - Logo */}
                 <div className="col-span-12 md:col-span-2 flex items-center">
