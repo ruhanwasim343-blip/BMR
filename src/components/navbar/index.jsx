@@ -1,6 +1,7 @@
+import { DropdownMenu } from "radix-ui"
 import React from "react"
 import { Link } from "react-router-dom"
-import Dropdown from "./Dropdown"
+
 
 
 export default function Navbar() {
@@ -18,9 +19,45 @@ export default function Navbar() {
                     </Link>
 
                     {/* Hamburger (Mobile Only) */}
-                    <div className="gap-1 col-span-12 flex items-center ml-auto">
-                        <Dropdown />
-                    </div>
+                    {/* Hamburger (Mobile Only) */}
+<div className="ml-auto md:hidden">
+  <DropdownMenu.Root>
+    
+    <DropdownMenu.Trigger asChild>
+      <button className="text-white text-2xl">
+        ☰
+      </button>
+    </DropdownMenu.Trigger>
+
+    <DropdownMenu.Content className="bg-[#15243D] text-white p-4 mt-3 rounded-md shadow-lg w-40 space-y-2">
+      
+      <DropdownMenu.Item>
+        <Link to="/">Home</Link>
+      </DropdownMenu.Item>
+
+      <DropdownMenu.Item>
+        <Link to="/about-us">About</Link>
+      </DropdownMenu.Item>
+
+      <DropdownMenu.Item>
+        <Link to="/frameworks">Framework</Link>
+      </DropdownMenu.Item>
+
+      <DropdownMenu.Item>
+        <Link to="/services">Services</Link>
+      </DropdownMenu.Item>
+
+      <DropdownMenu.Item>
+        <Link to="/insights">Insights</Link>
+      </DropdownMenu.Item>
+
+      <DropdownMenu.Item>
+        <Link to="/contact">Contact</Link>
+      </DropdownMenu.Item>
+
+    </DropdownMenu.Content>
+  </DropdownMenu.Root>
+</div>
                 </div>
 
                 {/* Center - Links */}
