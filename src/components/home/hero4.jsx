@@ -6,9 +6,9 @@ export default function Hero4() {
             <div className='bg-[#15243D]'>
                 <div className='lg:max-w-7xl px-6 py-6 mx-auto'>
                     <div className='flex flex-col items-center justify-center '>
-                        <h1 className='text-lg text-white'>Our Frameworks</h1>
-                        <p className='text-[8px] text-white/75 mt-2 mb-6'>Proven methodologies to guide your Al transformation journey</p>
-                        <h1 className='text-lg text-white'>The Journey</h1>
+                        <h1 className='text-3xl text-white'>Our Frameworks</h1>
+                        <p className='text-[12px] text-white/75 mt-2 mb-6'>Proven methodologies to guide your Al transformation journey</p>
+                        <h1 className='text-xl text-white'>The Journey</h1>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mt-6'>

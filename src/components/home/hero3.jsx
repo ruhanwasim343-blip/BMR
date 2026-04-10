@@ -6,8 +6,8 @@ export default function Hero3() {
             <div className='bg-[#0F1C33]'>
                 <div className='lg:max-w-7xl px-6 py-12  mx-auto'>
                     <div className='text-center'>
-                        <h1 className='text-lg text-white'>WHY CHOOSE BMR SOLUTIONS</h1>
-                        <p className='text-[8px] text-white/75 mt-2 mb-6'>Trusted by organizations to navigate the complexities of Al transformation</p>
+                        <h1 className='text-3xl text-white'>WHY CHOOSE BMR SOLUTIONS</h1>
+                        <p className='text-[12px] text-white/75 mt-2 mb-6'>Trusted by organizations to navigate the complexities of Al transformation</p>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>

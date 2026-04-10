@@ -5,8 +5,8 @@ export default function Services1() {
         <div className='bg-[#0F1C33]'>
             <div className='max-w-7xl px-6 py-12 mx-auto'>
                 <div className='text-center'>
-                    <h1 className='text-2xl font-semibold text-white'>Our Services</h1>
-                    <p className='text-[9px] text-[#99A1AF] mt-4'>Comprehensive advisory services designed to guide your organization through every stage of <span className='block'>responsible AI adoption, from strategic planning to measurable outcomes.</span> </p>
+                    <h1 className='text-3xl font-semibold text-white'>Our Services</h1>
+                    <p className='text-[12px] text-[#99A1AF] mt-4'>Comprehensive advisory services designed to guide your organization through every stage of <span className='block'>responsible AI adoption, from strategic planning to measurable outcomes.</span> </p>
                 </div>
 
 

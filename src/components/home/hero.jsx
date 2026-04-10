@@ -5,7 +5,7 @@ export default function Hero() {
     return (
         <>
             <div className=' bg-[#15243D]'>
-                <div className='grid grid-cols-1 md:grid-cols-12 max-w-7xl mx-auto px-5 sm:px-7 py-16 sm:py-20 gap-12'>
+                <div className='grid grid-cols-1 md:grid-cols-12 max-w-7xl mx-auto px-5 sm:px-7 py-16 sm:py-20 gap-12 items-center'>
 
                     {/* First part */}
                     <div className='col-span-7 text-left'>
@@ -26,37 +26,40 @@ export default function Hero() {
 
                         {/* Buttons */}
                         <div className='flex flex-wrap gap-3 mt-8'>
-                            <Button className="text-sm text-white bg-[#00A5A8] px-6 sm:px-7 py-2 rounded-sm">
+                            <Button className="text-sm text-white bg-[#00A5A8] px-6 sm:px-7 py-2 rounded-sm hover:bg-[#00A5A8]/90 transition cursor-pointer">
                                 Explore services
                             </Button>
-                            <Button className="text-sm bg-[#15243D] text-[#00A5A8] px-6 sm:px-7 py-2 border border-[#00A5A8] rounded-sm hidden md:block">
-                                See our frameworks →
+                            <Button className="group text-sm bg-[#15243D] text-[#00A5A8] px-6 sm:px-7 py-3 border border-[#00A5A8] rounded-sm hidden md:flex items-center justify-center gap-2 hover:bg-[#00A5A8] hover:text-white transition cursor-pointer">
+                                See our frameworks
+                                <span className="transition-transform duration-500 group-hover:translate-x-1">
+                                    →
+                                </span>
                             </Button>
                         </div>
 
                         {/* Features */}
-                        <div className="mt-10 flex flex-col space-y-3 hidden md:block">
+                        <div className="mt-10 hidden md:flex flex-col space-y-3">
 
                             <div className="lg:flex gap-4">
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> NIST AI RMF aligned
                                 </p>
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> Healthcare and public sector
                                 </p>
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> Algorithmic Impact Assessments
                                 </p>
                             </div>
 
                             <div className="lg:flex gap-4">
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> HAI and AVS toolkits
                                 </p>
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> Delivery readiness scans
                                 </p>
-                                <p className="flex text-white text-xs gap-2">
+                                <p className="flex text-white text-xs gap-2 items-center">
                                     <img src="/verified.svg" alt="" /> Executive enablement
                                 </p>
                             </div>
@@ -121,7 +124,7 @@ export default function Hero() {
                             {/* Button (ALWAYS CENTERED) */}
                             <div className="flex justify-center">
                                 <Button className='text-xs sm:text-sm text-white bg-[#00A5A8] 
-                px-6 sm:px-10 py-2 w-full '>
+                                        px-6 sm:px-10 py-2 w-full hover:bg-[#00A5A8]/90 transition cursor-pointer'>
                                     Talk about your portfolio
                                 </Button>
                             </div>

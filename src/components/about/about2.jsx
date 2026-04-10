@@ -6,7 +6,7 @@ export default function About2() {
             <div className='bg-[#0F1C33]'>
                 <div className=' max-w-7xl mx-auto px-6 py-12'>
 
-                    <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
                         <div className="bg-[#15243D] border border-white/70 rounded-md p-5 max-w-sm space-y-4 shadow-lg">
 
                             {/* Icon */}

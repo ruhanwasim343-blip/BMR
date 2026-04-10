@@ -6,8 +6,8 @@ export default function Hero2() {
             <div className='bg-[#15243D]  border-t pb-8 border-gray-700'>
                 <div className='bg-[#15243D] lg:max-w-7xl px-6 mx-auto'>
                     <div className='text-center mt-6'>
-                        <h1 className='text-lg text-white'>WHAT WE OFFER</h1>
-                        <p className='text-[8px] text-white/75'>Comprehensive solutions for Al governance and organizational transformation</p>
+                        <h1 className='text-3xl text-white'>WHAT WE OFFER</h1>
+                        <p className='text-[12px] text-white/75'>Comprehensive solutions for Al governance and organizational transformation</p>
                     </div>
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-10'>

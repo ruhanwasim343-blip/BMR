@@ -6,8 +6,8 @@ export default function Framework1() {
             <div className='bg-[#15243D]'>
                 <div className=' max-w-7xl px-6 py-12 mx-auto'>
                 <div className='text-center'>
-                    <h1 className='text-2xl text-white font-bold'>Our Frameworks</h1>
-                    <p className='text-[9px] text-[#99A1AF] mt-4'>Proven methodologies and structured approaches to guide your organization's journey <span className='block'>toward responsible AI adoption and sustainable transformation.</span> </p>
+                    <h1 className='text-3xl text-white font-bold'>Our Frameworks</h1>
+                    <p className='text-[12px] text-[#99A1AF] mt-4'>Proven methodologies and structured approaches to guide your organization's journey <span className='block'>toward responsible AI adoption and sustainable transformation.</span> </p>
                     <h1 className='text-md text-white font-semibold mt-8'>Journey</h1>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-5 mt-5'>
