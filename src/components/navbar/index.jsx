@@ -18,7 +18,7 @@ export default function Navbar() {
                     </Link>
 
                     {/* Hamburger (Mobile Only) */}
-                    <div className="md:hidden gap-1 col-span-12 md:col-span-2 flex items-center ml-auto">
+                    <div className="gap-1 col-span-12 flex items-center ml-auto">
                         <Dropdown />
                     </div>
                 </div>
@@ -27,32 +27,32 @@ export default function Navbar() {
                 <div className="hidden md:block col-span-10">
                     <ul className="flex justify-end pr-4 gap-5 md:gap-8 text-[#000000] font-medium text-xs lg:text-[16px]">
                         <li>
-                            <Link to="/" className="text-white text-sm hover:text-white transition">
+                            <Link to="/" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 Home
                             </Link>
                         </li>
                         <li>
-                            <Link to="/about-us" className="text-white text-sm hover:text-white transition">
+                            <Link to="/about-us" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 About
                             </Link>
                         </li>
                         <li>
-                            <Link to="/frameworks" className="text-white text-sm hover:text-white transition">
+                            <Link to="/frameworks" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 Framework
                             </Link>
                         </li>
                         <li>
-                            <Link to="/services" className="text-white text-sm hover:text-white transition">
+                            <Link to="/services" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 Services
                             </Link>
                         </li>
                         <li>
-                            <Link to="/insights" className="text-white text-sm hover:text-white transition">
+                            <Link to="/insights" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 Insights
                             </Link>
                         </li>
                         <li>
-                            <Link to="/contact" className="text-white text-sm hover:text-white transition">
+                            <Link to="/contact" className="text-white text-sm hover:text-[#00A5A8] transition">
                                 Contact
                             </Link>
                         </li>

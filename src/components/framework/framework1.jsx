@@ -15,7 +15,7 @@ export default function Framework1() {
                     {/* Card 1 */}
                     <div className="bg-[#0F1C33] border border-white/70 rounded-xl p-6 space-y-4 h-full transition duration-300 hover:scale-105 hover:border-[#00A5A8]">
 
-                        <p className="text-[#00A5A8] text-[10px]">FOUNDATION</p>
+                        <p className="text-[#00A5A8] text-[12px]">FOUNDATION</p>
 
                         <div className='flex items-center'>
                             <h1 className="text-white text-lg font-semibold">Trust</h1>
@@ -53,7 +53,7 @@ export default function Framework1() {
                     {/* Card 2 */}
                     <div className="bg-[#0F1C33] border border-white/70 rounded-xl p-6 space-y-4 h-full transition duration-300 hover:scale-105 hover:border-[#00A5A8]">
 
-                        <p className="text-[#00A5A8] text-[10px]">IMPLEMENTATION</p>
+                        <p className="text-[#00A5A8] text-[12px]">IMPLEMENTATION</p>
 
                         <div className='flex items-center'>
                             <h1 className="text-white text-lg font-semibold">Govern</h1>
@@ -91,7 +91,7 @@ export default function Framework1() {
                     {/* Card 3 */}
                     <div className="bg-[#0F1C33] border border-white/70 rounded-xl p-6 space-y-4 h-full transition duration-300 hover:scale-105 hover:border-[#00A5A8]">
 
-                        <p className="text-[#00A5A8] text-[10px]">GROWTH</p>
+                        <p className="text-[#00A5A8] text-[12px]">GROWTH</p>
 
                         <div className='flex items-center'>
                             <h1 className="text-white text-lg font-semibold">Evolve</h1>
