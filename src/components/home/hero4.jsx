@@ -22,13 +22,13 @@ export default function Hero4() {
                             />
 
                             {/* Content */}
-                            <p className='text-[#00A5A8] text-[9px] mb-2'>FOUNDATION</p>
+                            <p className='text-[#00A5A8] text-[12px] mb-2'>FOUNDATION</p>
 
                             <h1 className='text-base sm:text-lg font-semibold mb-2'>
                                 Trust
                             </h1>
 
-                            <p className='text-[10px] sm:text-xs text-white/80 leading-relaxed'>
+                            <p className='text-[12px] sm:text-xs text-white/80 leading-relaxed'>
                                 Establish transparency, accountability, and ethical standards
                                 for responsible AI implementation.
                             </p>
@@ -45,7 +45,7 @@ export default function Hero4() {
                             />
 
                             {/* Content */}
-                            <p className='text-[#00A5A8] text-[9px] mb-2'>IMPLEMENTATION</p>
+                            <p className='text-[#00A5A8] text-[12px] mb-2'>IMPLEMENTATION</p>
 
                             <h1 className='text-base sm:text-lg font-semibold mb-2'>
                                 Govern
@@ -70,7 +70,7 @@ export default function Hero4() {
                             />
 
                             {/* Content */}
-                            <p className='text-[#00A5A8] text-[9px] mb-2'>GROWTH</p>
+                            <p className='text-[#00A5A8] text-[12px] mb-2'>GROWTH</p>
 
                             <h1 className='text-base sm:text-lg font-semibold mb-2'>
                                 Evolve
