@@ -18,46 +18,46 @@ export default function Navbar() {
                         <img src="/BMR..svg" alt="Logo" className="cursor-pointer" />
                     </Link>
 
+                    
                     {/* Hamburger (Mobile Only) */}
-                    {/* Hamburger (Mobile Only) */}
-<div className="ml-auto md:hidden">
-  <DropdownMenu.Root>
-    
-    <DropdownMenu.Trigger asChild>
-      <button className="text-white text-2xl">
-        ☰
-      </button>
-    </DropdownMenu.Trigger>
+                    <div className="ml-auto md:hidden">
+                        <DropdownMenu.Root>
 
-    <DropdownMenu.Content className="bg-[#15243D] text-white p-4 mt-3 rounded-md shadow-lg w-40 space-y-2">
-      
-      <DropdownMenu.Item>
-        <Link to="/">Home</Link>
-      </DropdownMenu.Item>
+                            <DropdownMenu.Trigger asChild>
+                                <button className="text-white text-2xl">
+                                    ☰
+                                </button>
+                            </DropdownMenu.Trigger>
 
-      <DropdownMenu.Item>
-        <Link to="/about-us">About</Link>
-      </DropdownMenu.Item>
+                            <DropdownMenu.Content className="bg-[#15243D] text-white p-4 mt-3 rounded-md shadow-lg w-40 space-y-2">
 
-      <DropdownMenu.Item>
-        <Link to="/frameworks">Framework</Link>
-      </DropdownMenu.Item>
+                                <DropdownMenu.Item>
+                                    <Link to="/">Home</Link>
+                                </DropdownMenu.Item>
 
-      <DropdownMenu.Item>
-        <Link to="/services">Services</Link>
-      </DropdownMenu.Item>
+                                <DropdownMenu.Item>
+                                    <Link to="/about-us">About</Link>
+                                </DropdownMenu.Item>
 
-      <DropdownMenu.Item>
-        <Link to="/insights">Insights</Link>
-      </DropdownMenu.Item>
+                                <DropdownMenu.Item>
+                                    <Link to="/frameworks">Framework</Link>
+                                </DropdownMenu.Item>
 
-      <DropdownMenu.Item>
-        <Link to="/contact">Contact</Link>
-      </DropdownMenu.Item>
+                                <DropdownMenu.Item>
+                                    <Link to="/services">Services</Link>
+                                </DropdownMenu.Item>
 
-    </DropdownMenu.Content>
-  </DropdownMenu.Root>
-</div>
+                                <DropdownMenu.Item>
+                                    <Link to="/insights">Insights</Link>
+                                </DropdownMenu.Item>
+
+                                <DropdownMenu.Item>
+                                    <Link to="/contact">Contact</Link>
+                                </DropdownMenu.Item>
+
+                            </DropdownMenu.Content>
+                        </DropdownMenu.Root>
+                    </div>
                 </div>
 
                 {/* Center - Links */}
