@@ -1,103 +1,55 @@
-import { DropdownMenu } from "radix-ui"
 import React from "react"
 import { Link } from "react-router-dom"
-
-
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 export default function Navbar() {
     return (
         <nav className="bg-[#15243D] border-b border-white/20">
 
-            <div className="grid grid-cols-12 items-center  shadow-md px-7 py-5 max-w-7xl mx-auto border-b border-white/20">
+          <div className="grid grid-cols-12 items-center px-7 py-5 max-w-7xl mx-auto">
 
-                {/* Left - Logo */}
-                <div className="col-span-12 md:col-span-2 flex items-center">
+  {/* Logo */}
+  <div className="col-span-6 md:col-span-2 flex items-center">
+    <Link to="/">
+      <img src="/BMR..svg" alt="Logo" className="cursor-pointer" />
+    </Link>
+  </div>
 
-                    {/* Logo */}
-                    <Link to="/">
-                        <img src="/BMR..svg" alt="Logo" className="cursor-pointer" />
-                    </Link>
+  {/* Desktop Menu */}
+  <div className="hidden md:block md:col-span-10">
+    <ul className="flex justify-end gap-8 text-white text-sm font-medium">
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/about-us">About</Link></li>
+      <li><Link to="/frameworks">Framework</Link></li>
+      <li><Link to="/services">Services</Link></li>
+      <li><Link to="/insights">Insights</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
+    </ul>
+  </div>
 
-                    
-                    {/* Hamburger (Mobile Only) */}
-                    <div className="ml-auto md:hidden">
-                        <DropdownMenu.Root>
+  {/* Mobile Menu (RIGHT SIDE) */}
+  <div className="col-span-6 md:hidden flex justify-end">
+    <Sheet>
+      <SheetTrigger asChild>
+        <button className="text-white text-2xl">
+          ☰
+        </button>
+      </SheetTrigger>
 
-                            <DropdownMenu.Trigger asChild>
-                                <button className="text-white text-2xl">
-                                    ☰
-                                </button>
-                            </DropdownMenu.Trigger>
+      <SheetContent side="right" className="bg-[#15243D] text-white">
+        <div className="flex flex-col space-y-4 mt-6 text-center">
+          <Link to="/">Home</Link>
+          <Link to="/about-us">About</Link>
+          <Link to="/frameworks">Framework</Link>
+          <Link to="/services">Services</Link>
+          <Link to="/insights">Insights</Link>
+          <Link to="/contact">Contact</Link>
+        </div>
+      </SheetContent>
+    </Sheet>
+  </div>
 
-                            <DropdownMenu.Content className="bg-[#15243D] text-white p-4 mt-3 rounded-md shadow-lg w-40 space-y-2">
-
-                                <DropdownMenu.Item>
-                                    <Link to="/">Home</Link>
-                                </DropdownMenu.Item>
-
-                                <DropdownMenu.Item>
-                                    <Link to="/about-us">About</Link>
-                                </DropdownMenu.Item>
-
-                                <DropdownMenu.Item>
-                                    <Link to="/frameworks">Framework</Link>
-                                </DropdownMenu.Item>
-
-                                <DropdownMenu.Item>
-                                    <Link to="/services">Services</Link>
-                                </DropdownMenu.Item>
-
-                                <DropdownMenu.Item>
-                                    <Link to="/insights">Insights</Link>
-                                </DropdownMenu.Item>
-
-                                <DropdownMenu.Item>
-                                    <Link to="/contact">Contact</Link>
-                                </DropdownMenu.Item>
-
-                            </DropdownMenu.Content>
-                        </DropdownMenu.Root>
-                    </div>
-                </div>
-
-                {/* Center - Links */}
-                <div className="hidden md:block col-span-10">
-                    <ul className="flex justify-end pr-4 gap-5 md:gap-8 text-[#000000] font-medium text-xs lg:text-[16px]">
-                        <li>
-                            <Link to="/" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                Home
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/about-us" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                About
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/frameworks" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                Framework
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/services" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                Services
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/insights" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                Insights
-                            </Link>
-                        </li>
-                        <li>
-                            <Link to="/contact" className="text-white text-sm hover:text-[#00A5A8] transition">
-                                Contact
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-
-
-            </div>
+</div>
         </nav>
     )
 }
