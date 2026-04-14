@@ -1,4 +1,21 @@
+
 import React from 'react'
+const features = [
+    {
+        name: 'AI Governance',
+        description: 'Establish robust frameworks for responsible AI implementation and compliance.'
+    },
+    {
+        name: 'Delivery Transformation',
+        description: 'Optimize processes and accelerate delivery through strategic methodologies.'
+    },
+    {
+        name: 'Executive Readiness',
+        description: 'Prepare leadership teams for AI-driven organizational change.'
+    }
+
+];
+
 
 export default function Hero2() {
     return (
@@ -12,36 +29,12 @@ export default function Hero2() {
 
                     <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mt-10'>
 
-                        {/* Card 1 */}
-                        <div className='border border-[#E4E4E740]/80 rounded-lg p-6 text-white space-y-2'>
-                            <img className="w-8 h-8" src="/shield.svg" alt="" />
-                            <h1 className='text-lg font-semibold'>AI Governance</h1>
-                            <p className='text-sm text-white/80'>
-                                Establish robust frameworks for responsible AI
-                                implementation and compliance.
-                            </p>
-                        </div>
-
-                        {/* Card 2 */}
-                        <div className='border border-[#E4E4E740]/80 rounded-lg p-6 text-white space-y-2'>
-                            <img className="w-8 h-8" src="/Thunder.svg" alt="" />
-                            <h1 className='text-lg font-semibold'>Delivery Transformation</h1>
-                            <p className='text-sm text-white/80'>
-                                Optimize processes and accelerate delivery
-                                through strategic methodologies.
-                            </p>
-                        </div>
-
-                        {/* Card 3 */}
-                        <div className='border border-[#E4E4E740]/80 rounded-lg p-6 text-white space-y-2'>
-                            <img className="w-8 h-8" src="/Target.svg" alt="" />
-                            <h1 className='text-lg font-semibold'>Executive Readiness</h1>
-                            <p className='text-sm text-white/80'>
-                                Prepare leadership teams for AI-driven
-                                organizational change.
-                            </p>
-                        </div>
-
+                        {features.map((feature) => (
+                            <div key={feature.name} className='bg-[#1E2B45] p-6 rounded-lg border border-gray-700'>
+                                <h2 className='text-xl text-white mb-2'>{feature.name}</h2>
+                                <p className='text-sm text-white/75'>{feature.description}</p>
+                            </div>
+                        ))}
                     </div>
 
                 </div>
